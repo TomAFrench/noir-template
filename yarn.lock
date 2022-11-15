@@ -114,10 +114,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@noir-lang/aztec_backend@npm:0.11.0, @noir-lang/aztec_backend@npm:^0.11.0":
+"@noir-lang/aztec_backend@npm:0.11.0":
   version: 0.11.0
   resolution: "@noir-lang/aztec_backend@npm:0.11.0"
   checksum: a2aefcf18c7419b178c42fc94189a8650273940046e404c80d42208c209aa1e18bbf9bd4594b9659e8436da36c0328e9fc235ef3d2c0db29f314eaef712cd98d
+  languageName: node
+  linkType: hard
+
+"@noir-lang/aztec_backend@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "@noir-lang/aztec_backend@npm:0.12.0"
+  checksum: 3e41752b8ab4726fd598d64b879735080b0a1f56500f9a88c00b5e2742bbc9c762c63f4083b622fa2148c62868c4ca4bcc1ebed7a9702d180a5e91b554bcc2cc
   languageName: node
   linkType: hard
 
@@ -175,7 +182,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@tomfrench/noir-template@workspace:."
   dependencies:
-    "@noir-lang/aztec_backend": ^0.11.0
+    "@noir-lang/aztec_backend": ^0.12.0
     "@noir-lang/barretenberg": ^2.19.0
     "@noir-lang/noir_wasm": ^0.10.0
     "@types/chai": ^4.3.4
