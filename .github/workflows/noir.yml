@@ -2,7 +2,7 @@ name: Noir
 
 on:
   push:
-   branches: 
+   branches:
     - master
   pull_request:
 
@@ -22,6 +22,5 @@ jobs:
           toolchain: stable
 
       - name: Run Noir tests
-        working-directory: ./circuits
         run: nargo test
-        
+
