@@ -13,3 +13,4 @@ node_modules/
 # Noir
 circuits/build/
 circuits/proofs/
+Verifier.toml
