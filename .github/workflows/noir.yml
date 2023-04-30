@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Nargo
-        uses: noir-lang/noirup@bc85ba7d43358d6552e4cdf971b5b6b59bebdc69
+        uses: noir-lang/noirup@v0.1.2
         with:
           toolchain: stable
 
