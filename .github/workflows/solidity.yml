@@ -1,4 +1,4 @@
-name: test
+name: Solidity
 
 on: workflow_dispatch
 

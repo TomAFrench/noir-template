@@ -14,3 +14,7 @@ node_modules/
 circuits/build/
 circuits/proofs/
 Verifier.toml
+
+# Foundry
+out
+cache
