@@ -11,8 +11,7 @@ node_modules/
 .pnp.*
 
 # Noir
-circuits/build/
-circuits/proofs/
+target/
 Verifier.toml
 
 # Foundry
